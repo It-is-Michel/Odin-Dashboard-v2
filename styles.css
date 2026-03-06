@@ -29,3 +29,21 @@
   --color-text-light-hsl-l: 100%;
   --color-text-light-hsl: hsl(var(--color-text-light-hsl-h), var(--color-text-light-hsl-s), var(--color-text-light-hsl-l));
 }
+
+.page-wrapper {
+  display: grid;
+  grid-template-rows: min-content auto;
+  grid-template-columns: min-content auto;
+}
+
+.header {
+  grid-area: 1 / 1 / span 2 / span 2;
+  
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-template-columns: subgrid;
+}
+
+.main {
+  grid-area: 2 / 2 / span 1 / span 1;
+}

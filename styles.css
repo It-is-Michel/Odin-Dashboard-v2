@@ -42,6 +42,17 @@
   display: grid;
   grid-template-rows: subgrid;
   grid-template-columns: subgrid;
+  grid-template-areas:
+    "navegation top-wrapper"
+    "navegation .";
+}
+
+.navegation {
+  grid-area: navegation;
+}
+
+.header__top-wrapper {
+  grid-area: top-wrapper;
 }
 
 .main {

@@ -1,0 +1,31 @@
+:root {
+  --color-main-hsl-h: 350;
+  --color-main-hsl-s: 70%;
+  --color-main-hsl-l: 53%;
+  --color-main-hsl: hsl(var(--color-main-hsl-h), var(--color-main-hsl-s), var(--color-main-hsl-l));
+
+  --color-secondary-hsl-h: 257;
+  --color-secondary-hsl-s: 62%;
+  --color-secondary-hsl-l: 20%;
+  --color-secondary-hsl: hsl(var(--color-secondary-hsl-h), var(--color-secondary-hsl-s), var(--color-secondary-hsl-l));
+
+  --color-bg-main-hsl-h: 0;
+  --color-bg-main-hsl-s: 0%;
+  --color-bg-main-hsl-l: 97%;
+  --color-bg-main-hsl: hsl(var(--color-bg-main-hsl-h), var(--color-bg-main-hsl-s), var(--color-bg-main-hsl-l));
+
+  --color-bg-secondary-hsl-h: 0;
+  --color-bg-secondary-hsl-s: 0%;
+  --color-bg-secondary-hsl-l: 97%;
+  --color-bg-secondary-hsl: hsl(var(--color-bg-secondary-hsl-h), var(--color-bg-secondary-hsl-s), var(--color-bg-secondary-hsl-l));
+
+  --color-text-main-hsl-h: 260;
+  --color-text-main-hsl-s: 60%;
+  --color-text-main-hsl-l: 3%;
+  --color-text-main-hsl: hsl(var(--color-text-main-hsl-h), var(--color-text-main-hsl-s), var(--color-text-main-hsl-l));
+
+  --color-text-light-hsl-h: 0; 
+  --color-text-light-hsl-s: 0%;
+  --color-text-light-hsl-l: 100%;
+  --color-text-light-hsl: hsl(var(--color-text-light-hsl-h), var(--color-text-light-hsl-s), var(--color-text-light-hsl-l));
+}

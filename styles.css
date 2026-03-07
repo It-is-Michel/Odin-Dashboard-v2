@@ -189,8 +189,8 @@
   display: grid;
   grid-template:
     "search-box   tiny-user-profile" 3rem
-    ".            ."                 1rem
-    "user-profile option-buttons"    4rem / auto max-content;
+    "user-profile option-buttons   " 4rem / auto max-content;
+  gap: 2rem;
 
   background-color: var(--color-bg-main-hsl);
 }

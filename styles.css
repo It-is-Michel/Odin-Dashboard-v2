@@ -38,6 +38,14 @@
 
   --icon-svg-dashboard: url(icons/dashboard.svg);
   --icon-svg-home: url(icons/home.svg);
+  --icon-svg-profile: url(icons/profile.svg);
+  --icon-svg-messages: url(icons/messages.svg);
+  --icon-svg-history: url(icons/history.svg);
+  --icon-svg-tasks: url(icons/tasks.svg);
+  --icon-svg-communities: url(icons/communities.svg);
+  --icon-svg-settings: url(icons/settings.svg);
+  --icon-svg-support: url(icons/support.svg);
+  --icon-svg-privacity: url(icons/privacity.svg);
 }
 
 .page-wrapper {

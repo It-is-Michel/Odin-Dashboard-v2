@@ -184,7 +184,28 @@
 .header__top-wrapper {
   grid-area: top-wrapper;
 
+  display: grid;
+  grid-template:
+    "search-box   tiny-user-profile" 4rem
+    "user-profile option-buttons" 5rem / auto max-content;
+
   background-color: var(--color-bg-main-hsl);
+}
+
+.search-box {
+  grid-area: search-box;
+}
+
+.header__tiny-user-profile-wrapper {
+  grid-area: tiny-user-profile;
+}
+
+.header__user-profile-wrapper {
+  grid-area: user-profile;
+}
+
+.option-buttons-wrapper {
+  grid-area: option-buttons;
 }
 
 .main {

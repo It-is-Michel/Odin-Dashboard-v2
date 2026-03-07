@@ -67,6 +67,8 @@
 
 .navegation__h1 {
   margin: 0;
+
+  font-size: var(--font-size-title-bigger);
 }
 
 .header__top-wrapper {

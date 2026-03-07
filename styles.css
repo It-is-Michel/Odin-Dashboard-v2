@@ -183,6 +183,8 @@
 
 .header__top-wrapper {
   grid-area: top-wrapper;
+
+  background-color: var(--color-bg-main-hsl);
 }
 
 .main {

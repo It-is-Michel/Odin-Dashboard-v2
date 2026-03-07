@@ -99,6 +99,18 @@
   color: var(--color-text-light-hsl);
 }
 
+.home-link,
+.profile-link,
+.messages-link,
+.history-link,
+.tasks-link,
+.communities-link,
+.settings-link,
+.support-link,
+.privacity-link {
+  text-decoration: none;
+}
+
 .navegation__h1::before {
   content: "";
   background-image: var(--icon-svg-dashboard);

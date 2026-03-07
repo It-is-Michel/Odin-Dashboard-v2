@@ -184,10 +184,13 @@
 .header__top-wrapper {
   grid-area: top-wrapper;
 
+  padding: 1rem 2rem;
+
   display: grid;
   grid-template:
-    "search-box   tiny-user-profile" 4rem
-    "user-profile option-buttons" 5rem / auto max-content;
+    "search-box   tiny-user-profile" 3rem
+    ".            ."                 1rem
+    "user-profile option-buttons"    4rem / auto max-content;
 
   background-color: var(--color-bg-main-hsl);
 }

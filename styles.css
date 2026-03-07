@@ -142,6 +142,7 @@
 .support-link,
 .privacity-link {--icon-size: calc(var(--font-size-title-big) * 0.9)}
 
+/* Lay out the background and add space between the icon and text */
 .navegation__h1,
 .home-link,
 .profile-link,
@@ -159,6 +160,7 @@
   padding-left: calc(var(--icon-size) + 1rem);
 }
 
+/* Icon is bigger than font-size, it fixes it */
 .navegation__h1 {
   height: var(--icon-size);
   line-height: var(--icon-size);

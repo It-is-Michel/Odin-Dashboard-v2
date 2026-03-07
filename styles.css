@@ -221,6 +221,9 @@
 .search-box {
   flex-grow: 1;
 
+  border-color: transparent;
+  border-radius: calc(var(--search-box-height) / 2);
+
   background-color: var(--color-bg-secondary-hsl);
 }
 

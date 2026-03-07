@@ -28,6 +28,13 @@
   --color-text-light-hsl-s: 0%;
   --color-text-light-hsl-l: 100%;
   --color-text-light-hsl: hsl(var(--color-text-light-hsl-h), var(--color-text-light-hsl-s), var(--color-text-light-hsl-l));
+
+  --font-size-text-normal: calc(1rem + 0.1vh);
+  --font-size-text-big: calc(1.1rem + 0.1vh);
+
+  --font-size-title-normal: calc(1.25rem + 0.1vh);
+  --font-size-title-big: calc(1.5rem + 0.1vh);
+  --font-size-title-bigger: calc(1.75rem + 0.1vh);
 }
 
 .page-wrapper {

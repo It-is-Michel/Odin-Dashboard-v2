@@ -84,7 +84,19 @@
   gap: 1rem;
 
   font-size: var(--font-size-title-bigger);
-  color: var(--color-text-main-hsl);
+}
+
+.navegation__h1,
+.home-link,
+.profile-link,
+.messages-link,
+.history-link,
+.tasks-link,
+.communities-link,
+.settings-link,
+.support-link,
+.privacity-link {
+  color: var(--color-text-light-hsl);
 }
 
 .navegation__h1::before {

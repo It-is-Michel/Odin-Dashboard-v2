@@ -84,6 +84,8 @@
 }
 
 .navegation-links__links-list {
+  margin-top: calc(var(--font-size-title-big) * 2);
+  margin-bottom: 0;
   padding-left: 0;
 
   display: grid;

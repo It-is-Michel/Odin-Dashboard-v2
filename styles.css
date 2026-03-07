@@ -232,6 +232,11 @@
   background-color: var(--color-bg-secondary-hsl);
 }
 
+.search-box:focus {
+  outline: none;
+  border: 1px solid var(--color-focus-hsl);
+}
+
 .header__tiny-user-profile-wrapper {
   grid-area: tiny-user-profile;
 }

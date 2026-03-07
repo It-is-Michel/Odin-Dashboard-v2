@@ -83,6 +83,10 @@
   font-size: var(--font-size-title-bigger);
 }
 
+.navegation-links__links-list {
+  padding-left: 0;
+}
+
 .navegation__h1,
 .navegation-links__home,
 .navegation-links__profile,

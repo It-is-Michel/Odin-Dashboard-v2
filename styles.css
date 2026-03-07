@@ -78,11 +78,7 @@
 }
 
 .navegation__h1 {
-  --icon-size: calc(var(--font-size-title-bigger) * 1.4);
-
   margin: 0;
-
-  gap: 1rem;
 
   font-size: var(--font-size-title-bigger);
 }
@@ -106,66 +102,69 @@
   grid-area: 7 / 1 / span 1 / span 1;
 }
 
-.navegation__h1,
-.navegation-links__home,
-.navegation-links__profile,
-.navegation-links__messages,
-.navegation-links__history,
-.navegation-links__tasks,
-.navegation-links__communities,
-.navegation-links__settings,
-.navegation-links__support,
-.navegation-links__privacity {
-  display: grid;
-  grid-template: var(--icon-size) / var(--icon-size) min-content;
-  align-items: center;
-}
-
-.navegation-links__home,
-.navegation-links__profile,
-.navegation-links__messages,
-.navegation-links__history,
-.navegation-links__tasks,
-.navegation-links__communities,
-.navegation-links__settings,
-.navegation-links__support,
-.navegation-links__privacity {
-  --icon-size: calc(var(--font-size-title-big) * 0.9);
-
-  gap: 1rem;
-
+.home-link,
+.profile-link,
+.messages-link,
+.history-link,
+.tasks-link,
+.communities-link,
+.settings-link,
+.support-link,
+.privacity-link {
   font-size: var(--font-size-title-big);
   font-weight: 500;
+  text-decoration: none;
 }
 
-.navegation__h1::before {background-image: var(--icon-svg-dashboard)}
-.navegation-links__home::before {background-image: var(--icon-svg-home)}
-.navegation-links__profile::before {background-image: var(--icon-svg-profile)}
-.navegation-links__messages::before {background-image: var(--icon-svg-messages)}
-.navegation-links__history::before {background-image: var(--icon-svg-history)}
-.navegation-links__tasks::before {background-image: var(--icon-svg-tasks)}
-.navegation-links__communities::before {background-image: var(--icon-svg-communities)}
-.navegation-links__settings::before {background-image: var(--icon-svg-settings)}
-.navegation-links__support::before {background-image: var(--icon-svg-support)}
-.navegation-links__privacity::before {background-image: var(--icon-svg-privacity)}
+/* Adding icons for each navegation link and the header */
 
-.navegation__h1::before,
-.navegation-links__home::before,
-.navegation-links__profile::before,
-.navegation-links__messages::before,
-.navegation-links__history::before,
-.navegation-links__tasks::before,
-.navegation-links__communities::before,
-.navegation-links__settings::before,
-.navegation-links__support::before,
-.navegation-links__privacity::before {
-  content: "";
+/* Set bg image with the icon */
+.navegation__h1 {background-image: var(--icon-svg-dashboard)}
+.home-link {background-image: var(--icon-svg-home)}
+.profile-link {background-image: var(--icon-svg-profile)}
+.messages-link {background-image: var(--icon-svg-messages)}
+.history-link {background-image: var(--icon-svg-history)}
+.tasks-link {background-image: var(--icon-svg-tasks)}
+.communities-link {background-image: var(--icon-svg-communities)}
+.settings-link {background-image: var(--icon-svg-settings)}
+.support-link {background-image: var(--icon-svg-support)}
+.privacity-link {background-image: var(--icon-svg-privacity)}
 
-  height: var(--icon-size);
+/* Set the icon size */
+.navegation__h1 {--icon-size: calc(var(--font-size-title-bigger) * 1.4)}
+.home-link,
+.profile-link,
+.messages-link,
+.history-link,
+.tasks-link,
+.communities-link,
+.settings-link,
+.support-link,
+.privacity-link {--icon-size: calc(var(--font-size-title-big) * 0.9)}
 
+.navegation__h1,
+.home-link,
+.profile-link,
+.messages-link,
+.history-link,
+.tasks-link,
+.communities-link,
+.settings-link,
+.support-link,
+.privacity-link {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 0% 50%;
+  background-size: var(--icon-size);
+
+  padding-left: calc(var(--icon-size) + 1rem);
 }
+
+.navegation__h1 {
+  height: var(--icon-size);
+  line-height: var(--icon-size);
+}
+
+/* End adding icons */
 
 .navegation__h1,
 .home-link,
@@ -178,25 +177,6 @@
 .support-link,
 .privacity-link {
   color: var(--color-text-light-hsl);
-}
-
-.home-link,
-.profile-link,
-.messages-link,
-.history-link,
-.tasks-link,
-.communities-link,
-.settings-link,
-.support-link,
-.privacity-link {
-  text-decoration: none;
-}
-
-.navegation__h1::before {
-  content: "";
-  background-image: var(--icon-svg-dashboard);
-
-  height: var(--icon-size);
 }
 
 .header__top-wrapper {

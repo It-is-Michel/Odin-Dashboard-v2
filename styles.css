@@ -66,10 +66,24 @@
 }
 
 .navegation__h1 {
+  --icon-size: calc(var(--font-size-title-bigger) * 1.4);
+
   margin: 0;
+
+  display: grid;
+  grid-template: var(--icon-size) / var(--icon-size) min-content;
+  align-items: center;
+  gap: 1rem;
 
   font-size: var(--font-size-title-bigger);
   color: var(--color-text-main-hsl);
+}
+
+.navegation__h1::before {
+  content: "";
+  background-image: var(--icon-svg-dashboard);
+
+  height: var(--icon-size);
 }
 
 .header__top-wrapper {

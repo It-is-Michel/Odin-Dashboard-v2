@@ -69,6 +69,7 @@
   grid-area: navegation;
 
   padding: 1.5rem;
+  padding-right: clamp(0px, 4vw, 15rem);
 
   background-color: var(--color-main-hsl);
 }

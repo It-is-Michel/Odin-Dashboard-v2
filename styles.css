@@ -197,7 +197,7 @@
 }
 
 .search-box-wrapper {
-  --search-box-height: 1.5rem;
+  --search-box-height: 1.75rem;
 
   grid-area: search-box;
   

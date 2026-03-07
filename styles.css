@@ -69,6 +69,7 @@
   margin: 0;
 
   font-size: var(--font-size-title-bigger);
+  color: var(--color-text-main-hsl);
 }
 
 .header__top-wrapper {

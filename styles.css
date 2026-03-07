@@ -92,6 +92,12 @@
   gap: var(--font-size-title-big);
 }
 
+/* Add an empty grid cell to the navegation links */
+.navegation-links__links-list::before {
+  content: "";
+  grid-area: 7 / 1 / span 1 / span 1;
+}
+
 .navegation__h1,
 .navegation-links__home,
 .navegation-links__profile,

@@ -35,6 +35,9 @@
   --font-size-title-normal: calc(1.25rem + 0.1vh);
   --font-size-title-big: calc(1.5rem + 0.1vh);
   --font-size-title-bigger: calc(1.75rem + 0.1vh);
+
+  --icon-svg-dashboard: url(icons/dashboard.svg);
+  --icon-svg-home: url(icons/home.svg);
 }
 
 .page-wrapper {

@@ -14,9 +14,9 @@
   --color-bg-main-hsl-l: 97%;
   --color-bg-main-hsl: hsl(var(--color-bg-main-hsl-h), var(--color-bg-main-hsl-s), var(--color-bg-main-hsl-l));
 
-  --color-bg-secondary-hsl-h: 0;
-  --color-bg-secondary-hsl-s: 0%;
-  --color-bg-secondary-hsl-l: 97%;
+  --color-bg-secondary-hsl-h: 260;
+  --color-bg-secondary-hsl-s: 10%;
+  --color-bg-secondary-hsl-l: 88%;
   --color-bg-secondary-hsl: hsl(var(--color-bg-secondary-hsl-h), var(--color-bg-secondary-hsl-s), var(--color-bg-secondary-hsl-l));
 
   --color-text-main-hsl-h: 260;

@@ -201,6 +201,17 @@
   grid-area: search-box;
   
   height: var(--search-box-height);
+  
+  display: flex;
+}
+
+.search-button {
+  height: var(--search-box-height);
+  width: calc(var(--search-box-height) + 1rem);
+}
+
+.search-box {
+  flex-grow: 1;
 }
 
 .header__tiny-user-profile-wrapper {

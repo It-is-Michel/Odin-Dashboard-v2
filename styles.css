@@ -196,7 +196,11 @@
 }
 
 .search-box-wrapper {
+  --search-box-height: 1.5rem;
+
   grid-area: search-box;
+  
+  height: var(--search-box-height);
 }
 
 .header__tiny-user-profile-wrapper {

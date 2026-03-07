@@ -195,7 +195,7 @@
   background-color: var(--color-bg-main-hsl);
 }
 
-.search-box {
+.search-box-wrapper {
   grid-area: search-box;
 }
 

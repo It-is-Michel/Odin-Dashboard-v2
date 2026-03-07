@@ -33,7 +33,7 @@
 .page-wrapper {
   display: grid;
   grid-template-rows: min-content auto;
-  grid-template-columns: min-content auto;
+  grid-template-columns: max-content auto;
 }
 
 .header {

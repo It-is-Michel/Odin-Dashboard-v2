@@ -50,6 +50,8 @@
 .navegation {
   grid-area: navegation;
 
+  padding: 1rem;
+
   background-color: var(--color-main-hsl);
 }
 

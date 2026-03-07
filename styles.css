@@ -49,6 +49,8 @@
 
 .navegation {
   grid-area: navegation;
+
+  background-color: var(--color-main-hsl);
 }
 
 .header__top-wrapper {

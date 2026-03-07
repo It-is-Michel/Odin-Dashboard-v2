@@ -29,6 +29,11 @@
   --color-text-light-hsl-l: 100%;
   --color-text-light-hsl: hsl(var(--color-text-light-hsl-h), var(--color-text-light-hsl-s), var(--color-text-light-hsl-l));
 
+--color-focus-hsl-h: 214;
+--color-focus-hsl-s: 100%;
+--color-focus-hsl-l: 50%;
+--color-focus-hsl: hsl(var(--color-focus-hsl-h), var(--color-focus-hsl-s), var(--color-focus-hsl-l));
+
   --font-size-text-normal: calc(1rem + 0.1vh);
   --font-size-text-big: calc(1.1rem + 0.1vh);
 

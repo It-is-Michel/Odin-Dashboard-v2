@@ -110,8 +110,6 @@
   --icon-size: calc(var(--font-size-title-big) * 0.9);
 
   gap: 1rem;
-
-  font-size: var(--font-size-title-big);
 }
 
 .navegation__h1::before {background-image: var(--icon-svg-dashboard)}

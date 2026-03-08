@@ -301,7 +301,7 @@
 .user-name-tiny::before,
 .user-name-normal::before {content: var(--user-name)}
 
-.user-id-normal::before,
+.user-id-normal::before {content: " ("var(--user-id)")"}
 .user-id-tiny::before {content: var(--user-id)}
 
 .user-name-tiny {

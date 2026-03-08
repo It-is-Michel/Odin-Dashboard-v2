@@ -265,7 +265,7 @@
   grid-area: tiny-user-profile;
 }
 
-.user-photo {
+.user-photo-tiny {
   height: var(--user-photo-size-tiny);
   aspect-ratio: 1 / 1;
 

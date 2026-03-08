@@ -386,6 +386,9 @@
 .your-projects-section__h1,
 .announcements-section__h1,
 .trending-section__h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+
   font-size: var(--font-size-title-big);
   font-weight: 500;
   color: var(--color-text-main-hsl)

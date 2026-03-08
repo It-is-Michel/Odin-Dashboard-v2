@@ -462,6 +462,9 @@
 .fork-button {
   height: var(--icon-size-normal);
   aspect-ratio: 1 / 1;
+
+  margin-left: calc(2rem + 1vw);
+  padding: 0;
 }
 
 .your-projects-section__h1,

@@ -34,6 +34,7 @@
   --color-focus-hsl-l: 50%;
   --color-focus-hsl: hsl(var(--color-focus-hsl-h), var(--color-focus-hsl-s), var(--color-focus-hsl-l));
 
+  --font-size-text-tiny: calc(0.8rem + 0.1vh);
   --font-size-text-normal: calc(1rem + 0.1vh);
   --font-size-text-big: calc(1.1rem + 0.1vh);
 
@@ -315,6 +316,11 @@
 .user-name-normal,
 .user-id-normal {
   font-size: var(--font-size-title-big);
+  font-weight: 700;
+}
+
+.hi-there {
+  font-size: var(--font-size-text-tiny);
   font-weight: 700;
 }
 

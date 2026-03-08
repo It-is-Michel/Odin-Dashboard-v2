@@ -377,6 +377,15 @@
 
 .your-projects-section {
   grid-area: your-projects;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+}
+
+.projects-section {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-auto-rows: minmax(min-content, 1fr);
 }
 
 .announcements-section {

@@ -226,8 +226,9 @@
 
   background-color: transparent;
   background-image: var(--icon-svg-search);
-  background-size: contain;
+  background-size: var(--icon-size-normal);
   background-repeat: no-repeat;
+  background-position: 0 50%;
 }
 
 .search-box {

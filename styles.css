@@ -307,6 +307,11 @@
   font-weight: 700;
 }
 
+.header__user-profile-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
 .user-name-normal,
 .user-id-normal {
   font-size: var(--font-size-title-big);

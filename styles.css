@@ -390,8 +390,8 @@
 }
 
 .project-card {
-  border-left: 0.75rem solid var(--color-secondary-hsl);
-  border-radius: 0.75rem;
+  border-left: 0.5rem solid var(--color-secondary-hsl);
+  border-radius: 0.5rem;
 
   background-color: var(--color-bg-main-hsl);
 }

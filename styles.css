@@ -55,7 +55,7 @@
   --icon-svg-search: url(icons/search.svg);
   --icon-svg-notifications: url(icons/notifications.svg);
   --icon-svg-add-fav: url(icons/add-fav.svg);
-  --icon-svg-clone-project: url(icons/clone-project.svg);
+  --icon-svg-fork: url(icons/fork.svg);
   --icon-svg-mark-read: url(icons/mark-read.svg);
 
   --icon-size-normal: calc(var(--font-size-title-big) * 0.9);
@@ -432,12 +432,12 @@
 
 .add-to-fav-button,
 .mark-read-button,
-.clone-project-button {
+.fork-button {
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
-  
+
   border: none;
 }
 
@@ -449,15 +449,15 @@
   grid-area: icon-2;
   background-image: var(--icon-svg-mark-read);
 }
-.clone-project-button {
+.fork-button {
   grid-area: icon-3;
-  background-image: var(--icon-svg-clone-project);
+  background-image: var(--icon-svg-fork);
 }
 
 
 .add-to-fav-button,
 .mark-read-button,
-.clone-project-button {
+.fork-button {
   height: var(--icon-size-normal);
   aspect-ratio: 1 / 1;
 }

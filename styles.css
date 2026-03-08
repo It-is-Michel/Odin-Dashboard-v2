@@ -197,7 +197,7 @@
 .header__top-wrapper {
   grid-area: top-wrapper;
 
-  padding: 1rem 2rem;
+  padding: calc(1rem + 1vh) 2rem;
 
   display: grid;
   grid-template:

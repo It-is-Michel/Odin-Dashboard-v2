@@ -405,6 +405,8 @@
 .project-title {
   margin-top: 0.5rem;
   margin-bottom: 0.25rem;
+
+  font-size: var(--font-size-title-normal);
 }
 
 .project-description {

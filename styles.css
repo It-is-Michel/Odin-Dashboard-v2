@@ -52,6 +52,10 @@
   --icon-svg-support: url(icons/support.svg);
   --icon-svg-privacity: url(icons/privacity.svg);
   --icon-svg-search: url(icons/search.svg);
+  --icon-svg-notifications: url(icons/notifications.svg);
+
+  --icon-size-normal: calc(var(--font-size-title-big) * 0.9);
+  --icon-size-big: calc(var(--font-size-title-bigger) * 1.4);
 }
 
 .page-wrapper {
@@ -149,6 +153,7 @@
 .privacity-link {--icon-size: calc(var(--font-size-title-big) * 0.9)}
 
 /* Lay out the background and add space between the icon and text */
+
 .navegation__h1,
 .home-link,
 .profile-link,
@@ -161,15 +166,29 @@
 .privacity-link {
   background-repeat: no-repeat;
   background-position: 0% 50%;
-  background-size: var(--icon-size);
+}
 
-  padding-left: calc(var(--icon-size) + 1rem);
+.home-link,
+.profile-link,
+.messages-link,
+.history-link,
+.tasks-link,
+.communities-link,
+.settings-link,
+.support-link,
+.privacity-link {
+  background-size: var(--icon-size-normal);
+
+  padding-left: calc(var(--icon-size-normal) + 1rem);
 }
 
 /* Icon is bigger than font-size, it fixes it */
 .navegation__h1 {
-  height: var(--icon-size);
-  line-height: var(--icon-size);
+  height: var(--icon-size-big);
+  line-height: var(--icon-size-big);
+
+  background-size: var(--icon-size-big);
+  padding-left: calc(var(--icon-size-big) + 1rem);
 }
 
 /* End adding icons */

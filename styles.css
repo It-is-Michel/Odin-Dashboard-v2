@@ -504,6 +504,12 @@
   background-color: var(--color-bg-main-hsl);
 }
 
+.project-card,
+.announcements-card,
+.trending-card {
+  box-shadow: 0.25rem 0.5rem 0.5rem -0.4rem hsla(var(--color-secondary-hsl-h), var(--color-secondary-hsl-s), var(--color-secondary-hsl-l), 0.4);
+}
+
 .announcements-card {
   grid-template-rows: 1fr 1px 1fr 1px 1fr;
   gap: 0.5rem

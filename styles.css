@@ -364,5 +364,18 @@
 .main {
   grid-area: 2 / 2 / span 1 / span 1;
 
+  display: grid;
+  grid-template: 
+    "your-projects announcements" 1fr
+    "your-projects trending     " 1fr / 1fr minmax(12rem, 25%);
+
   background-color: var(--color-bg-secondary-hsl);
+}
+
+.your-projects-section {
+  grid-area: your-projects;
+}
+
+.announcements-section {
+  grid-area: announcements;
 }

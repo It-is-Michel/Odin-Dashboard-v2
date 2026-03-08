@@ -445,10 +445,12 @@
   grid-area: icon-1;
   background-image: var(--icon-svg-add-fav);
 }
+
 .mark-read-button {
   grid-area: icon-2;
   background-image: var(--icon-svg-mark-read);
 }
+
 .fork-button {
   grid-area: icon-3;
   background-image: var(--icon-svg-fork);

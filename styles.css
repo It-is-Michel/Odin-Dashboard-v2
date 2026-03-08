@@ -391,6 +391,7 @@
 
 .project-card {
   padding: var(--font-size-text-big);
+  padding-right: calc(var(--font-size-text-big) + 0.5rem);
 
   border-left: 0.5rem solid var(--color-secondary-hsl);
   border-radius: 0.5rem;

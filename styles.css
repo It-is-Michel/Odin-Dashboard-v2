@@ -372,8 +372,8 @@
 
   display: grid;
   grid-template: 
-    "your-projects announcements" 1fr
-    "your-projects trending     " 1fr / 1fr minmax(12rem, 25%);
+    "your-projects announcements" minmax(min-content, auto)
+    "your-projects trending     " minmax(min-content, auto) / 1fr minmax(12rem, 25%);
   gap: calc(1rem + 1vh);
 
   background-color: var(--color-bg-secondary-hsl);

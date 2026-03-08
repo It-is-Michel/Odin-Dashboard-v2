@@ -355,6 +355,10 @@
   border-radius: 1.25rem;
 
   background-color: var(--color-main-hsl);
+  
+  font-size: var(--font-size-text-normal);
+  font-weight: 500;
+  color: var(--color-text-light-hsl);
 }
 
 .main {

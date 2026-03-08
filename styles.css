@@ -389,6 +389,13 @@
   gap: calc(1rem + 1vh);
 }
 
+.project-card {
+  border-left: 0.75rem solid var(--color-secondary-hsl);
+  border-radius: 0.75rem;
+
+  background-color: var(--color-bg-main-hsl);
+}
+
 .announcements-section {
   grid-area: announcements;
 }

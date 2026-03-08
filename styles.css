@@ -353,6 +353,8 @@
   padding: 0.75rem 2rem;
   border: none;
   border-radius: 1.25rem;
+
+  background-color: var(--color-main-hsl);
 }
 
 .main {

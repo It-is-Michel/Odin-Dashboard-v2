@@ -344,6 +344,9 @@
 
 .option-buttons-wrapper {
   grid-area: option-buttons;
+
+  display: flex;
+  gap: 1.5rem;
 }
 
 .main {

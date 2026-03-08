@@ -58,6 +58,7 @@
   --icon-size-big: calc(var(--font-size-title-bigger) * 1.4);
 
   --user-photo-size-tiny: 2.5rem;
+  --user-photo-size-normal: 3rem;
 }
 
 .page-wrapper {
@@ -270,14 +271,17 @@
   align-items: center;
 }
 
-.user-photo-tiny {
-  height: var(--user-photo-size-tiny);
+.user-photo-tiny,
+.user-photo-normal {
   aspect-ratio: 1 / 1;
 
   background-image: url(images/user-photo.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.user-photo-tiny {height: var(--user-photo-size-tiny)}
+.user-photo-normal {height: var(--user-photo-size-normal)}
 
 .header__user-profile-wrapper {
   grid-area: user-profile;

@@ -59,7 +59,7 @@
   --icon-size-big: calc(var(--font-size-title-bigger) * 1.4);
 
   --user-photo-size-tiny: 2.5rem;
-  --user-photo-size-normal: 3rem;
+  --user-photo-size-normal: 4rem;
 
   --user-name: "Michel Devopuski";
   --user-id: "@michel";

@@ -296,9 +296,17 @@
 .tegan-photo-tiny {height: var(--user-photo-size-tiny)}
 .user-photo-normal {height: var(--user-photo-size-normal)}
 
-.user-name-tiny::before {
+.user-name-tiny::before,
+.user-name::before {
   content: var(--user-name);
+}
 
+.user-name-tiny {
+  font-weight: 700;
+}
+
+.user-name {
+  font-size: var(--font-size-title-big);
   font-weight: 700;
 }
 

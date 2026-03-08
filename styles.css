@@ -140,18 +140,6 @@
 .support-link {background-image: var(--icon-svg-support)}
 .privacity-link {background-image: var(--icon-svg-privacity)}
 
-/* Set the icon size */
-.navegation__h1 {--icon-size: calc(var(--font-size-title-bigger) * 1.4)}
-.home-link,
-.profile-link,
-.messages-link,
-.history-link,
-.tasks-link,
-.communities-link,
-.settings-link,
-.support-link,
-.privacity-link {--icon-size: calc(var(--font-size-title-big) * 0.9)}
-
 /* Lay out the background and add space between the icon and text */
 
 .navegation__h1,

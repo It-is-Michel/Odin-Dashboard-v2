@@ -426,10 +426,6 @@
   color: var(--color-text-main-hsl);
 }
 
-.announcements-section {
-  grid-area: announcements;
-}
-
 .add-to-fav-button,
 .mark-read-button,
 .fork-button {
@@ -476,4 +472,8 @@
   font-size: var(--font-size-title-big);
   font-weight: 500;
   color: var(--color-text-main-hsl)
+}
+
+.announcements-section {
+  grid-area: announcements;
 }

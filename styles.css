@@ -482,3 +482,10 @@
 .announcements-section {
   grid-area: announcements;
 }
+
+.announcements-card,
+.trending-card {
+  border-radius: 0.5rem;
+
+  background-color: var(--color-bg-main-hsl);
+}

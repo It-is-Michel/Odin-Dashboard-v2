@@ -507,6 +507,23 @@
   background-color: var(--color-bg-main-hsl);
 }
 
+.announcements-card {
+  grid-template-rows: 1fr 1px 1fr 1px 1fr;
+  gap: 0.5rem
+}
+
+.announcements-card::before {
+  content: "";
+  background-color: hsla(var(--color-secondary-hsl-h), var(--color-secondary-hsl-s), var(--color-secondary-hsl-l), 0.2);
+  grid-row-start: 2;
+}
+
+.announcements-card::after {
+  content: "";
+  background-color: hsla(var(--color-secondary-hsl-h), var(--color-secondary-hsl-s), var(--color-secondary-hsl-l), 0.2);
+  grid-row-start: 4;
+}
+
 .trending-user {
   margin: 0.6rem 0;
 

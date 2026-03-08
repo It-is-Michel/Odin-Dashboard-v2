@@ -378,10 +378,15 @@
   background-color: var(--color-bg-secondary-hsl);
 }
 
-.your-projects-section {
-  grid-area: your-projects;
+.your-projects-section,
+.announcements-section,
+.trending-section {
   display: grid;
   grid-template-rows: min-content 1fr;
+}
+
+.your-projects-section {
+  grid-area: your-projects;
 }
 
 .projects-section {

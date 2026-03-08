@@ -263,6 +263,11 @@
 
 .header__tiny-user-profile-wrapper {
   grid-area: tiny-user-profile;
+
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .user-photo-tiny {

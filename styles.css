@@ -530,3 +530,14 @@
   display: flex;
   gap: 1rem;
 }
+
+.trending-user-id,
+.user-id-tiny {
+  color: var(--color-text-main-hsl);
+}
+
+.trending-project-title {
+  margin-top: 0.2rem;
+  font-weight: 300;
+  color: hsla(var(--color-text-main-hsl-h), var(--color-text-main-hsl-s), var(--color-text-main-hsl-l), 0.8);
+}

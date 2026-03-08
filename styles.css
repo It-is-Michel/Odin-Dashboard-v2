@@ -56,6 +56,8 @@
 
   --icon-size-normal: calc(var(--font-size-title-big) * 0.9);
   --icon-size-big: calc(var(--font-size-title-bigger) * 1.4);
+
+  --user-photo-size-tiny: 2.5rem;
 }
 
 .page-wrapper {
@@ -261,6 +263,15 @@
 
 .header__tiny-user-profile-wrapper {
   grid-area: tiny-user-profile;
+}
+
+.user-photo {
+  height: var(--user-photo-size-tiny);
+  aspect-ratio: 1 / 1;
+
+  background-image: url(images/user-photo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .header__user-profile-wrapper {

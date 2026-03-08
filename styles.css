@@ -230,6 +230,8 @@
   background-size: var(--icon-size-normal);
   background-repeat: no-repeat;
   background-position: 0 50%;
+
+  cursor: pointer;
 }
 
 .search-box {
@@ -352,6 +354,8 @@
   font-size: var(--font-size-text-normal);
   font-weight: 500;
   color: var(--color-text-light-hsl);
+  
+  cursor: pointer;
 }
 
 .main {
@@ -456,6 +460,8 @@
 
   margin-left: calc(2rem + 1vw);
   padding: 0;
+
+  cursor: pointer;
 }
 
 .your-projects-section__h1,

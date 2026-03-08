@@ -320,6 +320,8 @@
 }
 
 .header__user-profile-wrapper {
+  grid-area: user-profile;
+
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -336,10 +338,6 @@
 
   font-size: var(--font-size-text-tiny);
   font-weight: 700;
-}
-
-.header__user-profile-wrapper {
-  grid-area: user-profile;
 }
 
 .option-buttons-wrapper {

@@ -271,9 +271,9 @@
   align-items: center;
 }
 
-.kendall-photo,
-.alex-photo,
-.tegan-photo,
+.kendall-photo-tiny,
+.alex-photo-tiny,
+.tegan-photo-tiny,
 .user-photo-tiny,
 .user-photo-normal {
   aspect-ratio: 1 / 1;
@@ -282,16 +282,16 @@
   background-repeat: no-repeat;
 }
 
-.kendall-photo {background-image: url(images/kendall-photo.png)}
-.alex-photo {background-image: url(images/alex-photo.png)}
-.tegan-photo {background-image: url(images/tegan-photo.png)}
+.kendall-photo-tiny {background-image: url(images/kendall-photo.png)}
+.alex-photo-tiny {background-image: url(images/alex-photo.png)}
+.tegan-photo-tiny {background-image: url(images/tegan-photo.png)}
 .user-photo-tiny,
 .user-photo-normal {background-image: url(images/user-photo.png)}
 
 .user-photo-tiny,
-.kendall-photo,
-.alex-photo,
-.tegan-photo {height: var(--user-photo-size-tiny)}
+.kendall-photo-tiny,
+.alex-photo-tiny,
+.tegan-photo-tiny {height: var(--user-photo-size-tiny)}
 .user-photo-normal {height: var(--user-photo-size-normal)}
 
 .header__user-profile-wrapper {

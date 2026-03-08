@@ -396,8 +396,17 @@
   border-left: 0.5rem solid var(--color-secondary-hsl);
   border-radius: 0.5rem;
 
+  display: grid;
+  grid-template:
+    "title title  title  title" min-content
+    "desc  desc   desc   desc " auto
+    ".     icon-1 icon-2 icon-3" min-content / auto min-content min-content min-content;
+
   background-color: var(--color-bg-main-hsl);
 }
+
+.project-title {grid-area: title}
+.project-description {grid-area: desc}
 
 .announcements-section {
   grid-area: announcements;
@@ -416,6 +425,18 @@
 
   font-size: var(--font-size-text-normal);
   color: var(--color-text-main-hsl);
+}
+
+.add-to-fav-button {grid-area: icon-1}
+.mark-read-button {grid-area: icon-2}
+.clone-project-button {grid-area: icon-3}
+
+
+.add-to-fav-button,
+.mark-read-button,
+.clone-project-button {
+  height: var(--icon-size-normal);
+  aspect-ratio: 1 / 1;
 }
 
 .your-projects-section__h1,

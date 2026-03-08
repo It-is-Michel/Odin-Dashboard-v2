@@ -298,7 +298,7 @@
 .user-photo-normal {height: var(--user-photo-size-normal)}
 
 .user-name-tiny::before,
-.user-name::before {
+.user-name-normal::before {
   content: var(--user-name);
 }
 
@@ -306,12 +306,12 @@
   font-weight: 700;
 }
 
-.user-name {
+.user-name-normal {
   font-size: var(--font-size-title-big);
   font-weight: 700;
 }
 
-.user-id::before {
+.user-id-normal::before {
   content: var(--user-id);
 }
 

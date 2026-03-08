@@ -502,5 +502,7 @@
 
   border-radius: 0.5rem;
 
+  display: grid;
+  align-content: space-evenly;
   background-color: var(--color-bg-main-hsl);
 }

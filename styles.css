@@ -204,6 +204,7 @@
     "search-box   tiny-user-profile" 3rem
     "user-profile option-buttons   " 4rem / auto max-content;
   gap: 2rem;
+  align-items: center;
 
   background-color: var(--color-bg-main-hsl);
 }

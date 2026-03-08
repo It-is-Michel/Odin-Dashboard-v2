@@ -364,13 +364,13 @@
 .main {
   grid-area: 2 / 2 / span 1 / span 1;
 
-  padding: 1rem;
+  padding: calc(1rem + 1vh);
 
   display: grid;
   grid-template: 
     "your-projects announcements" 1fr
     "your-projects trending     " 1fr / 1fr minmax(12rem, 25%);
-  gap: 1rem;
+  gap: calc(1rem + 1vh);
 
   background-color: var(--color-bg-secondary-hsl);
 }
@@ -386,6 +386,7 @@
   height: 100%;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-auto-rows: minmax(min-content, 1fr);
+  gap: calc(1rem + 1vh);
 }
 
 .announcements-section {

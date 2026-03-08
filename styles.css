@@ -485,6 +485,8 @@
 
 .announcements-card,
 .trending-card {
+  padding: calc(2.1rem + 0.1vw);
+
   border-radius: 0.5rem;
 
   background-color: var(--color-bg-main-hsl);

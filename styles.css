@@ -402,6 +402,15 @@
   grid-area: announcements;
 }
 
+.project-title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.project-description {
+  margin-top: 0.25rem;
+}
+
 .your-projects-section__h1,
 .announcements-section__h1,
 .trending-section__h1 {

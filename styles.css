@@ -411,10 +411,6 @@
 .project-title {grid-area: title}
 .project-description {grid-area: desc}
 
-.announcements-section {
-  grid-area: announcements;
-}
-
 .project-title {
   margin-top: 0.5rem;
   margin-bottom: 0.25rem;
@@ -428,6 +424,10 @@
 
   font-size: var(--font-size-text-normal);
   color: var(--color-text-main-hsl);
+}
+
+.announcements-section {
+  grid-area: announcements;
 }
 
 .add-to-fav-button,

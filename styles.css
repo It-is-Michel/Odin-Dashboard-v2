@@ -61,6 +61,7 @@
   --user-photo-size-normal: 3rem;
 
   --user-name: "Michel Devopuski";
+  --user-id: "@michel";
 }
 
 .page-wrapper {
@@ -308,6 +309,10 @@
 .user-name {
   font-size: var(--font-size-title-big);
   font-weight: 700;
+}
+
+.user-id::before {
+  content: var(--user-id);
 }
 
 .header__user-profile-wrapper {

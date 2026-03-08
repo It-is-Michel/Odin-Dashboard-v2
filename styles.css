@@ -485,7 +485,7 @@
 
 .announcements-card,
 .trending-card {
-  padding: calc(2.1rem + 0.1vw);
+  padding: var(--font-size-text-big) calc(2.1rem + 0.1vw);
 
   border-radius: 0.5rem;
 

@@ -364,10 +364,13 @@
 .main {
   grid-area: 2 / 2 / span 1 / span 1;
 
+  padding: 1rem;
+
   display: grid;
   grid-template: 
     "your-projects announcements" 1fr
     "your-projects trending     " 1fr / 1fr minmax(12rem, 25%);
+  gap: 1rem;
 
   background-color: var(--color-bg-secondary-hsl);
 }

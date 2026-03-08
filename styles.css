@@ -292,6 +292,17 @@
 .user-photo-tiny,
 .user-photo-normal {background-image: url(images/user-photo.png)}
 
+.kendall-photo-tiny,
+.alex-photo-tiny,
+.tegan-photo-tiny,
+.user-photo-tiny,
+.user-photo-normal {
+  background-color: rgb(255, 233, 136);
+  border-radius: 50%;
+  background-size: 80%;
+  background-position: 50%;
+}
+
 .user-photo-tiny,
 .kendall-photo-tiny,
 .alex-photo-tiny,

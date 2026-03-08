@@ -59,6 +59,8 @@
 
   --user-photo-size-tiny: 2.5rem;
   --user-photo-size-normal: 3rem;
+
+  --user-name: "Michel Devopuski";
 }
 
 .page-wrapper {
@@ -293,6 +295,12 @@
 .alex-photo-tiny,
 .tegan-photo-tiny {height: var(--user-photo-size-tiny)}
 .user-photo-normal {height: var(--user-photo-size-normal)}
+
+.user-name-tiny::before {
+  content: var(--user-name);
+
+  font-weight: 700;
+}
 
 .header__user-profile-wrapper {
   grid-area: user-profile;
